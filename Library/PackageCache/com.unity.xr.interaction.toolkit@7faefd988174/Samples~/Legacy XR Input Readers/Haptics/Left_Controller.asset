@@ -1,15 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6b220378d20aaf4bb51d68c394aafdc, type: 3}
-  m_Name: Left_Controller
-  m_EditorClassIdentifier: 
-  m_Characteristics: 356
+version https://git-lfs.github.com/spec/v1
+oid sha256:138681f4f28acdce97bdae65f275d584f9198b45ffccb65d9d87975341c76a47
+size 429
