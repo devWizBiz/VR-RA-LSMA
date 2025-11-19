@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac49d7d6e015f9642b558242b687e08d
+timeCreated: 1552925611
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Prefab/fit_ball_jump.prefab
+  uploadId: 626715

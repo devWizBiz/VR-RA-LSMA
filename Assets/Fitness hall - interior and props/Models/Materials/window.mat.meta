@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2ec33cacdaf4a14ba411bf1dcdef56a
+timeCreated: 1552920517
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Materials/window.mat
+  uploadId: 626715

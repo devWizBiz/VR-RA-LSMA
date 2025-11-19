@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6b47baa63119de148969448e7e34f56b
+timeCreated: 1552925614
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Prefab/fit_staper.prefab
+  uploadId: 626715

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 63efc6626e752174d9a1d67196f26c85
+timeCreated: 1552925619
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Prefab/fit_weight_3.prefab
+  uploadId: 626715

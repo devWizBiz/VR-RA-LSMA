@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0e267ae3d4b8e244d9acf2f544198c35
+timeCreated: 1552920510
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Materials/light.mat
+  uploadId: 626715

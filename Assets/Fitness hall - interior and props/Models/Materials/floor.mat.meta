@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 08b3a77a2f3aca741ba175bcaca89148
+timeCreated: 1552920518
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Materials/floor.mat
+  uploadId: 626715

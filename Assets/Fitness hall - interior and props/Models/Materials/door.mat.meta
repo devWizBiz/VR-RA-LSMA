@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 44331fcfc4f353f4a846f4d2a29a5420
+timeCreated: 1552920516
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Materials/door.mat
+  uploadId: 626715

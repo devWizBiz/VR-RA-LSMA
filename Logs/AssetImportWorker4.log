@@ -1,0 +1,2348 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.12f1 (e89d5df0e333) revision 15244637'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Latasha" at "2025-11-16T19:44:37.3812495Z"
+OS: 'Windows 11  (10.0.26200) 64bit Education' Language: 'en' Physical Memory: 16196 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-16T19:44:37Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Users/Latasha/Desktop/COMP 6710/vr
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64838
+-licensingIpc
+LicenseClient-Latasha
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Users/Latasha/Desktop/COMP 6710/vr
+D:/Users/Latasha/Desktop/COMP 6710/vr
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [132]  Target information:
+
+Player connection [132]  * "[IP] 192.168.225.1 [Port] 0 [Flags] 2 [Guid] 3276585508 [EditorId] 3276585508 [Version] 1048832 [Id] WindowsEditor(7,TJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [132]  * "[IP] 192.168.182.1 [Port] 0 [Flags] 2 [Guid] 3276585508 [EditorId] 3276585508 [Version] 1048832 [Id] WindowsEditor(7,TJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [132]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3276585508 [EditorId] 3276585508 [Version] 1048832 [Id] WindowsEditor(7,TJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [132]  * "[IP] 172.27.16.1 [Port] 0 [Flags] 2 [Guid] 3276585508 [EditorId] 3276585508 [Version] 1048832 [Id] WindowsEditor(7,TJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [132]  * "[IP] 192.168.1.192 [Port] 0 [Flags] 2 [Guid] 3276585508 [EditorId] 3276585508 [Version] 1048832 [Id] WindowsEditor(7,TJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 67.44 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.12f1 (e89d5df0e333)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/Latasha/Desktop/COMP 6710/vr/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3209
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Latasha"
+[Licensing::IpcConnector] LicenseClient-Latasha channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Latasha-6000.2.12" at "2025-11-16T19:44:41.6375794Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7da4f3e8e48342109a4eb7fdc2af513a
+  Correlation Id:          6bf80f4a4298365da431cb9778f5ee78
+  External correlation Id: 380037666191025750
+  Machine Id:              hE4ccZCVzNB4QLWxfCwuIP6SY4k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Latasha-6000.2.12" (connect: 0.00s, validation: 0.01s, handshake: 2.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Latasha-6000.2.12-notifications" at "2025-11-16T19:44:44.2865104Z"
+[Licensing::Module] Licensing Background thread has ended after 6.91s
+[Licensing::Module] Licensing is initialized (took 4.31s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 4.343280 seconds.
+- Loaded All Assemblies, in  5.353 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 913 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.604 seconds
+Domain Reload Profiling: 6948ms
+	BeginReloadAssembly (414ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (4452ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (316ms)
+				TypeCache.ScanAssembly (293ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1517ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1102ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.600 seconds
+Refreshing native plugins compatible for Editor in 16.72 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.637 seconds
+Domain Reload Profiling: 3227ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1083ms)
+		LoadAssemblies (745ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (353ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 18.10 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7486 unused Assets / (5.2 MB). Loaded Objects now: 8248.
+Memory consumption went from 161.5 MB to 156.3 MB.
+Total: 14.778500 ms (FindLiveObjects: 1.058500 ms CreateObjectMapping: 1.594700 ms MarkObjects: 7.986900 ms  DeleteObjects: 4.134600 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.843 seconds
+Refreshing native plugins compatible for Editor in 21.62 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.065 seconds
+Domain Reload Profiling: 3905ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1128ms)
+		LoadAssemblies (916ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (445ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (384ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2066ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (1065ms)
+			ProcessInitializeOnLoadMethodAttributes (240ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 20.43 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (5.0 MB). Loaded Objects now: 8265.
+Memory consumption went from 265.8 MB to 260.8 MB.
+Total: 15.698100 ms (FindLiveObjects: 1.143600 ms CreateObjectMapping: 1.724600 ms MarkObjects: 8.303900 ms  DeleteObjects: 4.524000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 645906.586918 seconds.
+  path: Assets/Scripts/LoginScreenManager.cs
+  artifactKey: Guid(3a39cf8de4c7b814bb515f5759374427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginScreenManager.cs using Guid(3a39cf8de4c7b814bb515f5759374427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a644ddf001b03eaeb89f0cae86d995f') in 0.0195734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.645 seconds
+Refreshing native plugins compatible for Editor in 16.88 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.020 seconds
+Domain Reload Profiling: 3656ms
+	BeginReloadAssembly (480ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1002ms)
+		LoadAssemblies (764ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (370ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (392ms)
+			ProcessInitializeOnLoadAttributes (976ms)
+			ProcessInitializeOnLoadMethodAttributes (244ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 19.26 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.8 MB). Loaded Objects now: 8270.
+Memory consumption went from 266.4 MB to 261.6 MB.
+Total: 16.852200 ms (FindLiveObjects: 1.168100 ms CreateObjectMapping: 1.857700 ms MarkObjects: 9.313200 ms  DeleteObjects: 4.511500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 533.365625 seconds.
+  path: Assets/Scripts/LoginScreenManager.cs
+  artifactKey: Guid(3a39cf8de4c7b814bb515f5759374427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginScreenManager.cs using Guid(3a39cf8de4c7b814bb515f5759374427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '020ec79559107cf0768de53f7339870e') in 0.015987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 39.24 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7407 unused Assets / (4.2 MB). Loaded Objects now: 8249.
+Memory consumption went from 212.2 MB to 208.0 MB.
+Total: 24.346500 ms (FindLiveObjects: 1.343400 ms CreateObjectMapping: 2.058500 ms MarkObjects: 15.044600 ms  DeleteObjects: 5.898100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.016 seconds
+Refreshing native plugins compatible for Editor in 17.51 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.094 seconds
+Domain Reload Profiling: 4105ms
+	BeginReloadAssembly (560ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1263ms)
+		LoadAssemblies (991ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (522ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (460ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2094ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (399ms)
+			ProcessInitializeOnLoadAttributes (1040ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 17.72 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7628 unused Assets / (5.0 MB). Loaded Objects now: 8272.
+Memory consumption went from 266.4 MB to 261.5 MB.
+Total: 15.532600 ms (FindLiveObjects: 1.261700 ms CreateObjectMapping: 2.011600 ms MarkObjects: 7.753200 ms  DeleteObjects: 4.504800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 42.67 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7408 unused Assets / (4.9 MB). Loaded Objects now: 8253.
+Memory consumption went from 213.2 MB to 208.3 MB.
+Total: 28.617700 ms (FindLiveObjects: 1.430100 ms CreateObjectMapping: 2.182000 ms MarkObjects: 18.257800 ms  DeleteObjects: 6.745500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.981 seconds
+Refreshing native plugins compatible for Editor in 27.15 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.292 seconds
+Domain Reload Profiling: 4269ms
+	BeginReloadAssembly (536ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1236ms)
+		LoadAssemblies (947ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (458ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (542ms)
+			ProcessInitializeOnLoadAttributes (956ms)
+			ProcessInitializeOnLoadMethodAttributes (218ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 26.51 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (5.4 MB). Loaded Objects now: 8276.
+Memory consumption went from 266.5 MB to 261.1 MB.
+Total: 25.339300 ms (FindLiveObjects: 2.284700 ms CreateObjectMapping: 2.385500 ms MarkObjects: 14.015800 ms  DeleteObjects: 6.651000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 132.573891 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd68b28d98119f5845db4a36aae1b94dc') in 0.064908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.564 seconds
+Refreshing native plugins compatible for Editor in 16.84 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.961 seconds
+Domain Reload Profiling: 3519ms
+	BeginReloadAssembly (441ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (961ms)
+		LoadAssemblies (728ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (351ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1962ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (373ms)
+			ProcessInitializeOnLoadAttributes (957ms)
+			ProcessInitializeOnLoadMethodAttributes (224ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 22.16 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.6 MB). Loaded Objects now: 8279.
+Memory consumption went from 220.0 MB to 215.4 MB.
+Total: 17.911900 ms (FindLiveObjects: 1.661000 ms CreateObjectMapping: 2.740900 ms MarkObjects: 9.083900 ms  DeleteObjects: 4.424200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 18.13 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.961 seconds
+Domain Reload Profiling: 3533ms
+	BeginReloadAssembly (447ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (965ms)
+		LoadAssemblies (744ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (345ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (377ms)
+			ProcessInitializeOnLoadAttributes (966ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 19.09 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.9 MB). Loaded Objects now: 8282.
+Memory consumption went from 266.6 MB to 261.7 MB.
+Total: 16.146400 ms (FindLiveObjects: 1.181000 ms CreateObjectMapping: 1.790500 ms MarkObjects: 8.733200 ms  DeleteObjects: 4.439800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 153.160932 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45bd6f790564bb60e395e1fe36b85c5f') in 0.0271781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.50 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7408 unused Assets / (3.7 MB). Loaded Objects now: 8262.
+Memory consumption went from 212.4 MB to 208.6 MB.
+Total: 25.656000 ms (FindLiveObjects: 1.387500 ms CreateObjectMapping: 2.169500 ms MarkObjects: 17.765800 ms  DeleteObjects: 4.331000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 289.909668 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49216c3dda0ec9ea9dceaad7fcae71f0') in 0.5401412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.566 seconds
+Refreshing native plugins compatible for Editor in 17.57 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.988 seconds
+Domain Reload Profiling: 3550ms
+	BeginReloadAssembly (469ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (938ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (404ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (350ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1989ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (298ms)
+			ProcessInitializeOnLoadAttributes (1043ms)
+			ProcessInitializeOnLoadMethodAttributes (235ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 18.31 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.8 MB). Loaded Objects now: 8285.
+Memory consumption went from 266.6 MB to 261.8 MB.
+Total: 17.524900 ms (FindLiveObjects: 1.252400 ms CreateObjectMapping: 2.084700 ms MarkObjects: 9.610800 ms  DeleteObjects: 4.575600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.49 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7407 unused Assets / (4.6 MB). Loaded Objects now: 8264.
+Memory consumption went from 213.3 MB to 208.7 MB.
+Total: 38.406800 ms (FindLiveObjects: 1.344300 ms CreateObjectMapping: 2.191900 ms MarkObjects: 28.737300 ms  DeleteObjects: 6.130900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 479.403784 seconds.
+  path: Assets/Scenes/StartScreen.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/StartScreen.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a8ba9b8e2bde11ca275b81c3da9ee37') in 0.4293879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.768 seconds
+Refreshing native plugins compatible for Editor in 24.32 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.004 seconds
+Domain Reload Profiling: 3767ms
+	BeginReloadAssembly (523ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1026ms)
+		LoadAssemblies (808ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (456ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (398ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (365ms)
+			ProcessInitializeOnLoadAttributes (958ms)
+			ProcessInitializeOnLoadMethodAttributes (240ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 16.80 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7628 unused Assets / (4.8 MB). Loaded Objects now: 8287.
+Memory consumption went from 220.1 MB to 215.3 MB.
+Total: 14.870100 ms (FindLiveObjects: 1.666400 ms CreateObjectMapping: 1.685200 ms MarkObjects: 7.273200 ms  DeleteObjects: 4.243800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.72 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7408 unused Assets / (5.7 MB). Loaded Objects now: 8268.
+Memory consumption went from 166.8 MB to 161.1 MB.
+Total: 28.560600 ms (FindLiveObjects: 1.386600 ms CreateObjectMapping: 2.057600 ms MarkObjects: 16.612100 ms  DeleteObjects: 8.501700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.353925 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11c3d4a723be76ff60634a94c03fa5e5') in 0.0321559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 92.44 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7408 unused Assets / (4.4 MB). Loaded Objects now: 8268.
+Memory consumption went from 165.9 MB to 161.6 MB.
+Total: 46.054300 ms (FindLiveObjects: 2.970600 ms CreateObjectMapping: 4.942200 ms MarkObjects: 28.691600 ms  DeleteObjects: 9.447700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 109.739703 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f11a3c7baf534d997434ee5e733fc4e') in 0.0140207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.775 seconds
+Refreshing native plugins compatible for Editor in 22.94 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.970 seconds
+Domain Reload Profiling: 3732ms
+	BeginReloadAssembly (501ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1054ms)
+		LoadAssemblies (846ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (434ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (363ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (1971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (341ms)
+			ProcessInitializeOnLoadAttributes (955ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 18.73 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.5 MB). Loaded Objects now: 8291.
+Memory consumption went from 266.7 MB to 262.2 MB.
+Total: 17.729000 ms (FindLiveObjects: 1.551600 ms CreateObjectMapping: 1.853300 ms MarkObjects: 9.599800 ms  DeleteObjects: 4.722400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.130118 seconds.
+  path: Assets/Scripts/LoginSceneManager.cs
+  artifactKey: Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoginSceneManager.cs using Guid(8e35009762a48a84296d45553a5e99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '358446d6856decb2ccf68aa440b99220') in 0.0121047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.729 seconds
+Refreshing native plugins compatible for Editor in 19.90 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.103 seconds
+Domain Reload Profiling: 3827ms
+	BeginReloadAssembly (503ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1041ms)
+		LoadAssemblies (860ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (354ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (412ms)
+			ProcessInitializeOnLoadAttributes (1047ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 22.87 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (5.0 MB). Loaded Objects now: 8294.
+Memory consumption went from 266.7 MB to 261.8 MB.
+Total: 19.296700 ms (FindLiveObjects: 1.325200 ms CreateObjectMapping: 2.151400 ms MarkObjects: 10.506000 ms  DeleteObjects: 5.312000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.784 seconds
+Refreshing native plugins compatible for Editor in 19.49 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.668 seconds
+Domain Reload Profiling: 3445ms
+	BeginReloadAssembly (445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1144ms)
+		LoadAssemblies (851ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (481ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (416ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1340ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (848ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 18.05 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (5.0 MB). Loaded Objects now: 8297.
+Memory consumption went from 266.8 MB to 261.8 MB.
+Total: 15.328500 ms (FindLiveObjects: 1.173900 ms CreateObjectMapping: 1.832700 ms MarkObjects: 7.586200 ms  DeleteObjects: 4.733600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 655.262318 seconds.
+  path: Assets/Scenes/StartScreen.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScreen.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c86b49ea30b5ac4d1563d4b60cf7312') in 0.0226466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.587 seconds
+Refreshing native plugins compatible for Editor in 17.42 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.916 seconds
+Domain Reload Profiling: 3497ms
+	BeginReloadAssembly (456ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (962ms)
+		LoadAssemblies (762ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (349ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1917ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (264ms)
+			ProcessInitializeOnLoadAttributes (964ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 22.87 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (5.4 MB). Loaded Objects now: 8300.
+Memory consumption went from 220.3 MB to 214.9 MB.
+Total: 19.251700 ms (FindLiveObjects: 1.328200 ms CreateObjectMapping: 2.365100 ms MarkObjects: 10.061800 ms  DeleteObjects: 5.494500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5422.661808 seconds.
+  path: Assets/Ducogen/Lobby
+  artifactKey: Guid(ddb3c9a7c03440540acdca335a5f08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby using Guid(ddb3c9a7c03440540acdca335a5f08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4681e4f38883d3109f3d8026ce6a9553') in 0.4138715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612875 seconds.
+  path: Assets/Ducogen/Lobby/Scene
+  artifactKey: Guid(6027b3e58e2ed274aac359c5ea8663f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Scene using Guid(6027b3e58e2ed274aac359c5ea8663f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa90469f734ecf3b15138751956f87d7') in 0.0015435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.501941 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Prefabs Scene.unity
+  artifactKey: Guid(0c2169b844533c44a9571ddd1f79f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Scene/Prefabs Scene.unity using Guid(0c2169b844533c44a9571ddd1f79f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519486052c38dfc0582ac8e4ede38a18') in 0.0018997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.717381 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Lobby Profile.asset
+  artifactKey: Guid(1bcdf49bddc0ac14688eb0ac7026f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Scene/Lobby Profile.asset using Guid(1bcdf49bddc0ac14688eb0ac7026f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6410a52074ceb5a87249d2110e03cf9') in 0.2693504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.007728 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby
+  artifactKey: Guid(f7d8dbd3312ccba418617a3644f2372e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby using Guid(f7d8dbd3312ccba418617a3644f2372e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a32a0e06610c8b4ceadbd366b10b3d0d') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.051230 seconds.
+  path: Assets/Ducogen/Lobby/Meshes
+  artifactKey: Guid(f0f0ca5e4ed0c3e42ac8e09cd7f00bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes using Guid(f0f0ca5e4ed0c3e42ac8e09cd7f00bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18edd0ad8d7e7025e06610fd77ebc222') in 0.0031311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344064 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/LMS Lobby.fbx
+  artifactKey: Guid(76a2d2eed65f7894fa281fe6dd4c9708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/LMS Lobby.fbx using Guid(76a2d2eed65f7894fa281fe6dd4c9708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9611d87c54edb55a938e8530b95f90d') in 9.195849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.040636 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Bamboo.fbx
+  artifactKey: Guid(d6829a32dd2c4c240afbbdb5527ba4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/Bamboo.fbx using Guid(d6829a32dd2c4c240afbbdb5527ba4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b7f6a0ede2fb55000e11318e31ac7b9') in 0.0470013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.703523 seconds.
+  path: Assets/Scenes/StartScreen.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/StartScreen.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acfc9affec2d866620eb327f6424ec83') in 0.4549508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ec32843fe0089ab45a89175cf4be9552) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-0_comp_dir.png using Guid(ec32843fe0089ab45a89175cf4be9552) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: 'd028cda3aa6ed19281bd07fcab45ee55') in 0.1944692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-2.exr
+  artifactKey: Guid(39b37757216a6cd4cae54be0f0c4a2a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-2.exr using Guid(39b37757216a6cd4cae54be0f0c4a2a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d0ca59a3823f4dd16e62da7aa1f7d07') in 0.0419172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ducogen/Lobby/Material/Sand.mat
+  artifactKey: Guid(13f67d87c7ba88743b21d04650eb1355) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Sand.mat using Guid(13f67d87c7ba88743b21d04650eb1355) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ae86683c173d3258fea4f622b436a79') in 0.0342082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/LightingData.asset
+  artifactKey: Guid(1354b69a019dfda4fac02bc6f32f4aeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/LightingData.asset using Guid(1354b69a019dfda4fac02bc6f32f4aeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fcca2fa62bd24f64e22e6000b0482a8') in 2.0384147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Fluffy Velvet_MetallicSmoothness.png
+  artifactKey: Guid(1287e5fd37ce72340bfb495387ce58df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Fluffy Velvet_MetallicSmoothness.png using Guid(1287e5fd37ce72340bfb495387ce58df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e99aa84cb33c2cd91372d6f20b7d1f3e') in 0.0294336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ducogen/Lobby/Material/Metal.mat
+  artifactKey: Guid(eae1232aec2a077419f89eb835c7a799) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Metal.mat using Guid(eae1232aec2a077419f89eb835c7a799) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb2cbb114edf36661c777a4552c94bf3') in 0.0198839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-1_comp_dir.png
+  artifactKey: Guid(3b608586bfd4a924f99456d1feadb6c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-1_comp_dir.png using Guid(3b608586bfd4a924f99456d1feadb6c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2736a7aa99834310ec9232594e3110e') in 0.0333956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_Wood Floor_Normal.png
+  artifactKey: Guid(484ec741c7b741b46bdfcc16c5f337ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_Wood Floor_Normal.png using Guid(484ec741c7b741b46bdfcc16c5f337ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d4629b2f36a33481da42958253570f4') in 0.025882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room/ReflectionProbe-3.exr
+  artifactKey: Guid(a6380154672598a42bedf4a040bf8f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room/ReflectionProbe-3.exr using Guid(a6380154672598a42bedf4a040bf8f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6877a129505c3076f77ac96687b5677') in 0.0351458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ducogen/Lobby/Material/Color Palette.mat
+  artifactKey: Guid(b885a566b6c5c264da8e264cae78fc41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Color Palette.mat using Guid(b885a566b6c5c264da8e264cae78fc41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2afd3dd66a2a3907e75c2ad264c9f2df') in 0.0258026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ducogen/Lobby/Texture/LMS Workway mat_Workway_MetallicSmoothness.png
+  artifactKey: Guid(6e7ea468d3fb0c1419509fe8f834ff72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/LMS Workway mat_Workway_MetallicSmoothness.png using Guid(6e7ea468d3fb0c1419509fe8f834ff72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a10e93c245538f75bfbd2e2732895c') in 0.0357157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/Lobby Display.prefab
+  artifactKey: Guid(481079400efb8b24793f3c3724fe7150) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/Lobby Display.prefab using Guid(481079400efb8b24793f3c3724fe7150) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d11359da058055694c7fd141f167431') in 0.0742436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room.lighting
+  artifactKey: Guid(f2739b98f01ee9547adb8a184aabd398) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room.lighting using Guid(f2739b98f01ee9547adb8a184aabd398) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '04afbb7b1eff6e192c5893dbccbd4827') in 0.0349636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ducogen/Lobby/Material/Oak.mat
+  artifactKey: Guid(fab18d843299877468e20a36b39d9013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Oak.mat using Guid(fab18d843299877468e20a36b39d9013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ac2e608c64fbe6808f4607218975e73') in 0.0206305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/sofa_body.prefab
+  artifactKey: Guid(f49d710b85d564a47884add3371a7dd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/sofa_body.prefab using Guid(f49d710b85d564a47884add3371a7dd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6e9bc7c2278e2ef20c70dda1e4f85ff') in 0.0264562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ducogen/Lobby/Texture/DayEnvironmentHDRI015_12K-HDR.exr
+  artifactKey: Guid(28fa817308b90c34db41bf3f8fbb07ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/DayEnvironmentHDRI015_12K-HDR.exr using Guid(28fa817308b90c34db41bf3f8fbb07ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '074f6c151f3994fc0536ad518947cdcb') in 0.9635249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/Lobby Ceiling Light.prefab
+  artifactKey: Guid(7fab2dfcf3bff794fa5fe40adc578090) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/Lobby Ceiling Light.prefab using Guid(7fab2dfcf3bff794fa5fe40adc578090) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a08e3b4add58ea236e27d5f7da885b1') in 0.0299639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ducogen/Lobby/Material/Marble Floor.mat
+  artifactKey: Guid(30f9f3c79a689ca478e1a3fc88c51227) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Marble Floor.mat using Guid(30f9f3c79a689ca478e1a3fc88c51227) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5bd68b7b459b3da126549cc8de70e24') in 0.0203352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Lobby Profile.asset
+  artifactKey: Guid(1bcdf49bddc0ac14688eb0ac7026f1c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Lobby Profile.asset using Guid(1bcdf49bddc0ac14688eb0ac7026f1c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efef2424b6dcbc97780b2b4073791e8a') in 0.0230953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ducogen/Lobby/Material/Wood.mat
+  artifactKey: Guid(79f293f5d795cbe44bb6e23d2c6f49b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Wood.mat using Guid(79f293f5d795cbe44bb6e23d2c6f49b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afa4319cca4825ea7aad727911830cfd') in 0.3875366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ducogen/Lobby/Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(091f2dc4823c8034cb6313ccf0829278) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/ReflectionProbe-0.exr using Guid(091f2dc4823c8034cb6313ccf0829278) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3879a18f451799afb6be9b9a48e8f820') in 0.0240688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-1.exr
+  artifactKey: Guid(a05916eb2a4079f449a98caef0f3313e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-1.exr using Guid(a05916eb2a4079f449a98caef0f3313e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a49fd7dc005b247af7a4d08888aa4823') in 0.2124605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-0.exr
+  artifactKey: Guid(687e3e78ef60d8d478ed298e01ac4b36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/ReflectionProbe-0.exr using Guid(687e3e78ef60d8d478ed298e01ac4b36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85101d8a879f52c30a5cde9215e8ce97') in 0.0330571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_Wood Floor_MetallicSmoothness.png
+  artifactKey: Guid(d39763b74eabdb24c8917e2b5f62e46d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_Wood Floor_MetallicSmoothness.png using Guid(d39763b74eabdb24c8917e2b5f62e46d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09d8192f8fe3a763d8ee7f757a835b26') in 0.0493819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ducogen/Counseling Room/Prefab/Hexagonal Wooden Wall Decoration.prefab
+  artifactKey: Guid(dd7dc5205ed39f740934144a43388119) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Prefab/Hexagonal Wooden Wall Decoration.prefab using Guid(dd7dc5205ed39f740934144a43388119) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ea7923423a6a2a1a3931dfd7cd664cd') in 0.0563057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Display.fbx
+  artifactKey: Guid(d1d78c032b377d2499c535a0603cbce0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Display.fbx using Guid(d1d78c032b377d2499c535a0603cbce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddb7fe911a86bcaf556ebdf3c5cdf699') in 0.1418581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Color Palette.png
+  artifactKey: Guid(f420bd794f6ab324e87217816f2878ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Color Palette.png using Guid(f420bd794f6ab324e87217816f2878ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18a817d9ada00d1e681a9fa83356a749') in 0.043829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ducogen/Counseling Room/Prefab/Ceiling Lamp.prefab
+  artifactKey: Guid(0949bc82ae8c76e4b8a0e704d4d1c515) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Prefab/Ceiling Lamp.prefab using Guid(0949bc82ae8c76e4b8a0e704d4d1c515) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fab136e94404994e840cdb005dc9864') in 0.0424011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/Bamboo.prefab
+  artifactKey: Guid(6a29b74ddb4748847b40da1727d2a475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/Bamboo.prefab using Guid(6a29b74ddb4748847b40da1727d2a475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb58e0e3f56f85ef71004d7acbebd750') in 0.0344184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ducogen/Lobby/Material/Rug.mat
+  artifactKey: Guid(b31b5751c41326e4e9e9bd5784436b8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Rug.mat using Guid(b31b5751c41326e4e9e9bd5784436b8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5777583d2ac4f4ea97f3954ad220d34') in 0.0300035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ducogen/Counseling Room/Meshes/Cozy Therapy Room.fbx
+  artifactKey: Guid(b40bcbca3204e7e4b953a7ae3e3869d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Meshes/Cozy Therapy Room.fbx using Guid(b40bcbca3204e7e4b953a7ae3e3869d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a10f17245c8e64fe8e8322c48444be0') in 0.0801756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ducogen/Counseling Room/Meshes/Counseling Room ETC.fbx
+  artifactKey: Guid(da9403817e672d441bcf48bba8eb8e88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Meshes/Counseling Room ETC.fbx using Guid(da9403817e672d441bcf48bba8eb8e88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9253b2182b220dd62f21b49bcbb2b0dd') in 0.1083757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Rug_MetallicSmoothness.png
+  artifactKey: Guid(267147bf57f18a14aa262b3a9f521c2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Rug_MetallicSmoothness.png using Guid(267147bf57f18a14aa262b3a9f521c2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5517357294a324917722e870ed2d3bae') in 0.0286373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ducogen/Lobby/Material/Marble.mat
+  artifactKey: Guid(0e747164e0fa4fd4e923b29121d7b95d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Marble.mat using Guid(0e747164e0fa4fd4e923b29121d7b95d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7208c053623a942527d0fb3648a7e669') in 0.0304825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ducogen/Lobby/Material/LobbyFrame.mat
+  artifactKey: Guid(ebcdae324fe7554419d0c410a5c07a9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/LobbyFrame.mat using Guid(ebcdae324fe7554419d0c410a5c07a9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9466578b3a4b19ea585f889055ba36d') in 0.0241545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ducogen/Counseling Room/Prefab/Desk Table Lamp Light wood and steel.prefab
+  artifactKey: Guid(9df8de578de892a458e05d0952164e53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Prefab/Desk Table Lamp Light wood and steel.prefab using Guid(9df8de578de892a458e05d0952164e53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bead2548edb0a2ba422a67ccac3b0f44') in 0.0368939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby.lighting
+  artifactKey: Guid(3b37b1faecc55424c813f4701f85b6d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby.lighting using Guid(3b37b1faecc55424c813f4701f85b6d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'ad193802f718523ae8c1ebe607be9dd5') in 0.0158017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Frame.fbx
+  artifactKey: Guid(4bf07343c675e7542b770705094bcc14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Frame.fbx using Guid(4bf07343c675e7542b770705094bcc14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c905c7c4422362465eb17c9067878b26') in 0.0529025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ducogen/Lobby/Texture/LMS Workway mat_Workway_AlbedoTransparency.png
+  artifactKey: Guid(b29aba92282b1664093bd84a1205714f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/LMS Workway mat_Workway_AlbedoTransparency.png using Guid(b29aba92282b1664093bd84a1205714f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b73cd11131b53963b37da91bd03ac071') in 0.0372075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ducogen/Counseling Room/Scene
+  artifactKey: Guid(b78fadafec514284f86a49ba0e5a7d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Scene using Guid(b78fadafec514284f86a49ba0e5a7d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0251ce1e088c91f6ad503fc73ae88f8a') in 0.0114147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ducogen/Lobby/Texture/QUADRO MINIMALISTA G.png
+  artifactKey: Guid(794df359994db8c4bbc24570d8ff88ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/QUADRO MINIMALISTA G.png using Guid(794df359994db8c4bbc24570d8ff88ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c26c0268a6fdf6963fad4f727a73c1a5') in 0.0309221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ducogen/Counseling Room/Material/Wood Floor.mat
+  artifactKey: Guid(ba6c8a5da38fab649b6b020cdae4302b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Material/Wood Floor.mat using Guid(ba6c8a5da38fab649b6b020cdae4302b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a949e748b51daca51487985fad9aef86') in 0.0295912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Ducogen/Lobby/Texture/1548993.png
+  artifactKey: Guid(0f869073d02f5204dbcb55e8ed238445) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/1548993.png using Guid(0f869073d02f5204dbcb55e8ed238445) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e5e821f7852f6f9694202c5671a0a88') in 0.0438938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/LMS Lobby.fbx
+  artifactKey: Guid(76a2d2eed65f7894fa281fe6dd4c9708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/LMS Lobby.fbx using Guid(76a2d2eed65f7894fa281fe6dd4c9708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffd22ee954bd2538d5599cc328a6ea7d') in 0.1652604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Rug_Normal.png
+  artifactKey: Guid(ae2acd557d6f34946b6facc6bb0307fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Room Chair Table Set_Rug_Normal.png using Guid(ae2acd557d6f34946b6facc6bb0307fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44849c8e2b5c1ee818373957a6904d56') in 0.0462041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d6df5479ea97b8948bb0e670ae19aae5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/Demo Scene_Lobby/Lightmap-0_comp_light.exr using Guid(d6df5479ea97b8948bb0e670ae19aae5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ea668919b1d0ee8d10b2a3251092571') in 0.0481451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ducogen/Counseling Room/Prefab/Shelf.001 - Copy.prefab
+  artifactKey: Guid(276382826b9d00641adda4158d438a38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Prefab/Shelf.001 - Copy.prefab using Guid(276382826b9d00641adda4158d438a38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c6b84f748d2ee2672f9311a09d23b0e') in 0.0376069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ducogen/Counseling Room
+  artifactKey: Guid(464f4cece6ebc554f9207795680b4251) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room using Guid(464f4cece6ebc554f9207795680b4251) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7be0488fc15c535bbda7771dd86bdf52') in 0.014007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ducogen/Counseling Room/Meshes
+  artifactKey: Guid(75806833cdf806045a04e09dade8f9f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Meshes using Guid(75806833cdf806045a04e09dade8f9f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0bcb3d15b62d48989085615eb803a03') in 0.0105382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ducogen/Counseling Room/Material/Art.mat
+  artifactKey: Guid(f8ec1cac340f4574b963a5d7b39b3dc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Material/Art.mat using Guid(f8ec1cac340f4574b963a5d7b39b3dc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c26401669529d9e9dd4377e7de442962') in 0.0184668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ducogen/Lobby/Material/Quadro.mat
+  artifactKey: Guid(8679daa2c78c8fc4a908635300d34374) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Quadro.mat using Guid(8679daa2c78c8fc4a908635300d34374) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00f47bb963694438f7f5c0edb2560b19') in 0.0239504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ducogen/Counseling Room/Scene/LMS_3 Profile.asset
+  artifactKey: Guid(4ea695ceceedfe548b5f4a498a5c3b3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Scene/LMS_3 Profile.asset using Guid(4ea695ceceedfe548b5f4a498a5c3b3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c47dfcc04536908c80da2c76ba419bd6') in 0.0135584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ducogen/Lobby/Shader/GlassShader.shadergraph
+  artifactKey: Guid(b50ab50cda6d8ed48b8ad9cc066ac936) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Shader/GlassShader.shadergraph using Guid(b50ab50cda6d8ed48b8ad9cc066ac936) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e02c1e468a11933f108dd1a4cce6b663') in 0.0313712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_door MF wood_Normal.png
+  artifactKey: Guid(b28c168342dec55408ca6e1f9276ebae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Cozy Therapy Room_door MF wood_Normal.png using Guid(b28c168342dec55408ca6e1f9276ebae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '717db25ac6fb38febf7a46266ab50f63') in 0.0249911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Texture Bake Plane_DefaultMaterial_Normal - Copy.png
+  artifactKey: Guid(02161140ac7ebd84d883d3760f832fd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Texture Bake Plane_DefaultMaterial_Normal - Copy.png using Guid(02161140ac7ebd84d883d3760f832fd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b62c7605655feea6431369f320973c8') in 0.028774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ducogen/Lobby/Material/Wall.mat
+  artifactKey: Guid(4274c7c7e194b1b47a0b8f8b3eb6c291) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Wall.mat using Guid(4274c7c7e194b1b47a0b8f8b3eb6c291) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a77624e73e2f5aab123f8235ac1ae213') in 0.0123536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/LMS Lobby.prefab
+  artifactKey: Guid(330ef8e254ad94d40b8a985f2a4eb9f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/LMS Lobby.prefab using Guid(330ef8e254ad94d40b8a985f2a4eb9f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea928245331ad4f259df4a9bb1e7de39') in 0.0315639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Infodesk.fbx
+  artifactKey: Guid(0d0903e3b1fc3974fbfc9a49aa368bc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Infodesk.fbx using Guid(0d0903e3b1fc3974fbfc9a49aa368bc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a27e5dac4858b9fe118fc504f3bdd787') in 0.0509858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a67e1084c6882b849b1bff42566f6028) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Scene/Demo Scene_Counseling Room/Lightmap-0_comp_light.exr using Guid(a67e1084c6882b849b1bff42566f6028) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '882ea55ed541096b64ef711b7be306a1') in 0.0530756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Looby Sculpture.fbx
+  artifactKey: Guid(c208cd0f4636f4241b57a0adf143982b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/Looby Sculpture.fbx using Guid(c208cd0f4636f4241b57a0adf143982b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28bacf5d7b5dc34bc14ed77e7d503706') in 0.0491101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ducogen/Lobby/Texture/Seamless VIB_Normal.png
+  artifactKey: Guid(4e660e35dd8a8db4a89ae41a34e561f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Texture/Seamless VIB_Normal.png using Guid(4e660e35dd8a8db4a89ae41a34e561f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b616c2640bfdeab3768a4a61f156a21') in 0.0261835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ducogen/Counseling Room/Prefab
+  artifactKey: Guid(9674a78de51aec648adaea8dfe80328a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Counseling Room/Prefab using Guid(9674a78de51aec648adaea8dfe80328a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f775e25174abe47625c2f41ff1b00c52') in 0.008335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ducogen/Lobby/Material/Leather.mat
+  artifactKey: Guid(540f5c8627706994c8bb5c474454eace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Leather.mat using Guid(540f5c8627706994c8bb5c474454eace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '784718b287996c899fda0011f5aeaec6') in 0.0186212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ducogen/Lobby/Scene/ReflectionProbe-1.exr
+  artifactKey: Guid(a978c82dc4681304685c721e5322cfa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Scene/ReflectionProbe-1.exr using Guid(a978c82dc4681304685c721e5322cfa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '014c044765d5c9c89e585036d3d496b3') in 0.1149842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/Lobby Tree.prefab
+  artifactKey: Guid(a6bcbbf485c7b1b4e8e82264d6ae6361) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/Lobby Tree.prefab using Guid(a6bcbbf485c7b1b4e8e82264d6ae6361) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7dc615df504afa7fd20a8e194e0cd1d') in 0.0259679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ducogen/Lobby/Material/Glass.mat
+  artifactKey: Guid(7dedccc5f97b84d4e8a175e0496749b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Material/Glass.mat using Guid(7dedccc5f97b84d4e8a175e0496749b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '728776c6c6c6941ce3d6d8574e343b81') in 0.0199602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Bench.fbx
+  artifactKey: Guid(057adc30dca8e574798949db683c6905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Bench.fbx using Guid(057adc30dca8e574798949db683c6905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '652bdbbaa844aef54deba31b37ac7dd9') in 0.0756826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ducogen/Lobby/Meshes
+  artifactKey: Guid(f0f0ca5e4ed0c3e42ac8e09cd7f00bb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Meshes using Guid(f0f0ca5e4ed0c3e42ac8e09cd7f00bb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36fb079e0313bfcb615207584eed6798') in 0.0158467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ducogen/Lobby/Prefab/back_cushion_front.prefab
+  artifactKey: Guid(b631ffb81a4ba9e48b80a4e06bb5d44c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ducogen/Lobby/Prefab/back_cushion_front.prefab using Guid(b631ffb81a4ba9e48b80a4e06bb5d44c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8d1ddba3890f404733bb25817fff69f') in 0.0333483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 478.551500 seconds.
+  path: Assets/Ducogen/Lobby/Material
+  artifactKey: Guid(49f6526407d016946add284312eeabb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Material using Guid(49f6526407d016946add284312eeabb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1396e0d745a7418cdcd7445897e5dac') in 0.0013575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 993.007794 seconds.
+  path: Assets/Scenes/Lobby 1.unity
+  artifactKey: Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lobby 1.unity using Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50d1588194511f91ef51b8fc1672ecfe') in 0.0032901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830192 seconds.
+  path: Assets/Scenes/Lobby 1.unity
+  artifactKey: Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Lobby 1.unity using Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddd2fd80e7ba213f635d91c4df76e43b') in 0.0592146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.443381 seconds.
+  path: Assets/Scenes/LobbyScene.unity
+  artifactKey: Guid(0985439fb9503b54da98dc15237a562f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/LobbyScene.unity using Guid(0985439fb9503b54da98dc15237a562f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '561f20dab34e6be37f735dcfe28adda0') in 0.0175555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.307455 seconds.
+  path: Assets/Scenes/AssessmentScene.unity
+  artifactKey: Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AssessmentScene.unity using Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72e3ce305b68d3f798d095b1e8fbe43a') in 0.0012253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831972 seconds.
+  path: Assets/Scenes/AssessmentScene.unity
+  artifactKey: Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/AssessmentScene.unity using Guid(b3e5cd728742d9c468c104ca2d22af80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13ce317d0c0f97cac185daca1728dc26') in 0.0167416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 930.402403 seconds.
+  path: Assets/Scenes/AssessmentScene 1.unity
+  artifactKey: Guid(8a3190be31e5d8c4585f114a0803b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AssessmentScene 1.unity using Guid(8a3190be31e5d8c4585f114a0803b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0074442ff8c4eb491f3b4039b3a2749d') in 0.0023586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802621 seconds.
+  path: Assets/Scenes/AssessmentScene 2.unity
+  artifactKey: Guid(941da95bfe27f2a479b5e2957aeb6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AssessmentScene 2.unity using Guid(941da95bfe27f2a479b5e2957aeb6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c7a9154d462519eab7ab2ae45f1b897') in 0.0013087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.810931 seconds.
+  path: Assets/Scenes/AssessmentScene 1.unity
+  artifactKey: Guid(8a3190be31e5d8c4585f114a0803b669) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/AssessmentScene 1.unity using Guid(8a3190be31e5d8c4585f114a0803b669) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00622f988b04a919bf2853fccb3fce79') in 0.0289176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.234688 seconds.
+  path: Assets/Scenes/progressScene.unity
+  artifactKey: Guid(8a3190be31e5d8c4585f114a0803b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/progressScene.unity using Guid(8a3190be31e5d8c4585f114a0803b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f4b0536f50e6433e884c626c477874') in 0.0010554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831132 seconds.
+  path: Assets/Scenes/progressScene.unity
+  artifactKey: Guid(8a3190be31e5d8c4585f114a0803b669) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/progressScene.unity using Guid(8a3190be31e5d8c4585f114a0803b669) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7843308378815c54b361d233e381c71') in 0.0211091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5769.646751 seconds.
+  path: Assets/Scenes/LobbyScene.unity
+  artifactKey: Guid(0985439fb9503b54da98dc15237a562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LobbyScene.unity using Guid(0985439fb9503b54da98dc15237a562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b508c6d618f36484db5c7aa651868f2') in 0.0138736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.793394 seconds.
+  path: Assets/Scenes/New Scene 1.unity
+  artifactKey: Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene 1.unity using Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5901919eeee35274eb172a02d373c2cd') in 0.0037329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639058 seconds.
+  path: Assets/Scenes/New Scene 2.unity
+  artifactKey: Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene 2.unity using Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e54c13ef894dd70497712173232a485') in 0.0024252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829656 seconds.
+  path: Assets/Scenes/New Scene 3.unity
+  artifactKey: Guid(d4363e96d660b704eb53e1e21812e830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene 3.unity using Guid(d4363e96d660b704eb53e1e21812e830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44c359ab273156b5dfe2923bf6d2e557') in 0.0020699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831809 seconds.
+  path: Assets/Scenes/New Scene 1.unity
+  artifactKey: Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/New Scene 1.unity using Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85292c2690e9e711b381f26536b565cd') in 0.0599003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/New Scene 3.unity
+  artifactKey: Guid(d4363e96d660b704eb53e1e21812e830) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/New Scene 3.unity using Guid(d4363e96d660b704eb53e1e21812e830) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08afe94830b540813f0b782c279e05db') in 0.0199364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.023529 seconds.
+  path: Assets/Scenes/tutorialScene.unity
+  artifactKey: Guid(f4bbe72d7d2ce934384e49daae9982c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tutorialScene.unity using Guid(f4bbe72d7d2ce934384e49daae9982c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5253d150895503a17089a380ea2d5b83') in 0.0020154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.820587 seconds.
+  path: Assets/Scenes/tutorialScene.unity
+  artifactKey: Guid(f4bbe72d7d2ce934384e49daae9982c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/tutorialScene.unity using Guid(f4bbe72d7d2ce934384e49daae9982c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b0c3eff4dbbabed5b2d5a7740cbc2b') in 0.0160671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.454147 seconds.
+  path: Assets/Scenes/startScreen.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/startScreen.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa967be8a4227ae7d31c29c762852892') in 0.0011183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822745 seconds.
+  path: Assets/Scenes/startScreen.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/startScreen.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3ef53411982275c1ef685aadee330ab') in 0.0617057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.269273 seconds.
+  path: Assets/Scenes/startScrene.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/startScrene.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea99a56b38aafc262ef6c69e86c7ea80') in 0.0011652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.842302 seconds.
+  path: Assets/Scenes/startScrene.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/startScrene.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e29ee3b5c12216b40659249011bb052') in 0.0343649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.968101 seconds.
+  path: Assets/Scenes/startScene.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/startScene.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e100ce6f7ce0a71bdf06dc47fa04dd23') in 0.0011047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838694 seconds.
+  path: Assets/Scenes/startScene.unity
+  artifactKey: Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/startScene.unity using Guid(cbe4552831832f4468c43c5d64320b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72262fdfea2de42f420f7c4630435a41') in 0.0301958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.298797 seconds.
+  path: Assets/Scenes/lobbyScene.unity
+  artifactKey: Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lobbyScene.unity using Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '229c1a92a20b822e6b557a667d9e2005') in 0.0016322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781453 seconds.
+  path: Assets/Scenes/lobbyScene.unity
+  artifactKey: Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/lobbyScene.unity using Guid(a69f501f39588a341ab8c80ac0e6ec91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3798039f0ab0fd20ccf83529549e5406') in 0.0269724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.227233 seconds.
+  path: Assets/Scenes/assessmentScene.unity
+  artifactKey: Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assessmentScene.unity using Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b503b9549121e61f2a1ce609b02216b7') in 0.001133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836682 seconds.
+  path: Assets/Scenes/assessmentScene.unity
+  artifactKey: Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/assessmentScene.unity using Guid(56dac8dc9236a5042b6e9ecf10f1ea6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07375e8393b251e5b6800975024ca03f') in 0.0234495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.846870 seconds.
+  path: Assets/Scenes/New Scene 4.unity
+  artifactKey: Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene 4.unity using Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e09de3c71008d2dcc889a3e96a7372f9') in 0.0022533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828618 seconds.
+  path: Assets/Scenes/New Scene 4.unity
+  artifactKey: Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/New Scene 4.unity using Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf990a2acf507ea4e10b7824ba4b7c1a') in 0.019867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.145116 seconds.
+  path: Assets/Scenes/trainingScene.unity
+  artifactKey: Guid(d4363e96d660b704eb53e1e21812e830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/trainingScene.unity using Guid(d4363e96d660b704eb53e1e21812e830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ba180436e07a158e2ab4b4bc44570f') in 0.0010645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.837129 seconds.
+  path: Assets/Scenes/trainingScene.unity
+  artifactKey: Guid(d4363e96d660b704eb53e1e21812e830) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/trainingScene.unity using Guid(d4363e96d660b704eb53e1e21812e830) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a8d1ebc65520ca0be1e5c4e989eab15') in 0.011872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.783501 seconds.
+  path: Assets/Scenes/dastrainingScene.unity
+  artifactKey: Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dastrainingScene.unity using Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffcccde33cbbd67a7300ebc0bf411863') in 0.0009941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.834775 seconds.
+  path: Assets/Scenes/dastrainingScene.unity
+  artifactKey: Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/dastrainingScene.unity using Guid(8de8996bc308b144e8dd37f0aa32b317) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15277d2829289bba09a3b567734b585a') in 0.0107884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2079.872103 seconds.
+  path: Assets/Prefabs/VR Player.prefab
+  artifactKey: Guid(20e35e2a5dfa0474387d387a3b516e49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/VR Player.prefab using Guid(20e35e2a5dfa0474387d387a3b516e49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e6f38bb4a3120186f592ba2b85373d1') in 0.6469538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 284
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.871443 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Controls
+  artifactKey: Guid(25ea971cc17caa84a8a2fdf9917af7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Controls using Guid(25ea971cc17caa84a8a2fdf9917af7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5476a52ccedd0db6b6a2778b250e3c9') in 0.0091261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754657 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Controls/PoseControl.cs
+  artifactKey: Guid(31038076760c2c744a116e944e0e18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Controls/PoseControl.cs using Guid(31038076760c2c744a116e944e0e18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cde8d93a67b3ad4618a601849d40573') in 0.0024198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  4.972 seconds
+Refreshing native plugins compatible for Editor in 33.08 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.227 seconds
+Domain Reload Profiling: 9211ms
+	BeginReloadAssembly (2423ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (299ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1162ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (2311ms)
+		LoadAssemblies (1778ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (965ms)
+			TypeCache.Refresh (64ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (824ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (4229ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (502ms)
+			ProcessInitializeOnLoadAttributes (2388ms)
+			ProcessInitializeOnLoadMethodAttributes (602ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (5ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (71ms)
+Refreshing native plugins compatible for Editor in 27.46 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7630 unused Assets / (5.2 MB). Loaded Objects now: 8372.
+Memory consumption went from 275.8 MB to 270.6 MB.
+Total: 36.303300 ms (FindLiveObjects: 4.528800 ms CreateObjectMapping: 4.674300 ms MarkObjects: 16.570900 ms  DeleteObjects: 10.522300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M3XB-4QZE-38CJ-H7DD-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474236781743-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.080 seconds
+Refreshing native plugins compatible for Editor in 18.61 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.801 seconds
+Domain Reload Profiling: 3862ms
+	BeginReloadAssembly (507ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1378ms)
+		LoadAssemblies (1098ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (469ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (415ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (845ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 18.81 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7629 unused Assets / (4.9 MB). Loaded Objects now: 8375.
+Memory consumption went from 228.5 MB to 223.6 MB.
+Total: 29.401100 ms (FindLiveObjects: 1.545000 ms CreateObjectMapping: 2.206000 ms MarkObjects: 19.969100 ms  DeleteObjects: 5.678700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2115.186104 seconds.
+  path: Assets/Ducogen/Counseling Room/Material/Art.mat
+  artifactKey: Guid(f8ec1cac340f4574b963a5d7b39b3dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Counseling Room/Material/Art.mat using Guid(f8ec1cac340f4574b963a5d7b39b3dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b9f021d894d086e01803e34bc8b29f8') in 1.1499726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.987568 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Looby Sculpture.fbx
+  artifactKey: Guid(c208cd0f4636f4241b57a0adf143982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/Looby Sculpture.fbx using Guid(c208cd0f4636f4241b57a0adf143982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '915baade01ae06175db1227e2f2bcb3f') in 0.3512671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Ducogen/Counseling Room/Meshes/Cozy Therapy Room.fbx
+  artifactKey: Guid(b40bcbca3204e7e4b953a7ae3e3869d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Counseling Room/Meshes/Cozy Therapy Room.fbx using Guid(b40bcbca3204e7e4b953a7ae3e3869d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fabf3da6dcf0adbe1e8a017331293e55') in 0.1397018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ducogen/Lobby/Shader/GlassShader.shadergraph
+  artifactKey: Guid(b50ab50cda6d8ed48b8ad9cc066ac936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Shader/GlassShader.shadergraph using Guid(b50ab50cda6d8ed48b8ad9cc066ac936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99d269f7434ca44096532a571c079318') in 0.0318316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Infodesk.fbx
+  artifactKey: Guid(0d0903e3b1fc3974fbfc9a49aa368bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Infodesk.fbx using Guid(0d0903e3b1fc3974fbfc9a49aa368bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85024eed3d13e760cf5b23c1abd26f9f') in 0.1354791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Table.fbx
+  artifactKey: Guid(af86a02448742634483807ac6529d4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Table.fbx using Guid(af86a02448742634483807ac6529d4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '466122af488b73b2b51f593810b35470') in 0.0492422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ducogen/Lobby/Material/Glass.mat
+  artifactKey: Guid(7dedccc5f97b84d4e8a175e0496749b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Material/Glass.mat using Guid(7dedccc5f97b84d4e8a175e0496749b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '601856610aac8a61837194a3d2b32679') in 0.0205761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406812 seconds.
+  path: Assets/Ducogen/Counseling Room/Meshes/Ceiling Lamp.fbx
+  artifactKey: Guid(0cafe163c4c36ae4f99f7db1d1f2b0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Counseling Room/Meshes/Ceiling Lamp.fbx using Guid(0cafe163c4c36ae4f99f7db1d1f2b0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2292ebe0510888ded7b3ed353a293626') in 0.0705065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Diffuse_01.mat
+  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Diffuse_01.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '991f27b412726e5fab4f2937f7874925') in 1.4650197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ducogen/Lobby/Meshes/Lobby Display.fbx
+  artifactKey: Guid(d1d78c032b377d2499c535a0603cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Meshes/Lobby Display.fbx using Guid(d1d78c032b377d2499c535a0603cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59e3f9e4c3b5363335a6d9c8bba659f2') in 0.221024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333422 seconds.
+  path: Assets/Ducogen/Lobby/Material/Color Palette.mat
+  artifactKey: Guid(b885a566b6c5c264da8e264cae78fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ducogen/Lobby/Material/Color Palette.mat using Guid(b885a566b6c5c264da8e264cae78fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee3bb1f0281bb8436160ba656924ccf') in 0.0892051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

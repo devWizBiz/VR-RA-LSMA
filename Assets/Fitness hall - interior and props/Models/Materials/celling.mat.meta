@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c15923e21a3aac14fb9b6e8ad7d9ef7b
+timeCreated: 1552920518
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142273
+  packageName: Fitness hall - interior and props
+  packageVersion: 2.0
+  assetPath: Assets/Fitness hall - interior and props/Models/Materials/celling.mat
+  uploadId: 626715
