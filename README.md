@@ -11,13 +11,13 @@
 ## Scenes
 
 ### **0. Login**
-- Setup Background  
-- Title  
-- ID text/input field  
-- Remember Me toggle  
-- Login and guest access buttons  
-- Create code for logging in (maybe a manager)  
-- Set up Virtual Keyboard  
+- ~~Setup Background~~  
+- ~~Title~~  
+- ~~ID text/input field~~  
+- ~~Remember Me toggle~~  
+- ~~Login and guest access buttons~~  
+- ~~Create code for logging in (maybe a manager)~~  
+- ~~Set up Virtual Keyboard~~  
 - Make XR input (needs work)
 
 ---
@@ -39,7 +39,7 @@
 ---
 
 ### **2. Assessment (clinic-like assets)**
-- Setup Scene  
+- ~~Setup Scene~~ 
 - Choose Options (button + panel for each—maybe generate via code)
   - Range of Motion Assessment  
   - Movement Accuracy and Consistency Test  
@@ -51,7 +51,7 @@
 ---
 
 ### **3. Training**
-- Setup Scene (fitness asset)  
+- ~~Setup Scene (fitness asset)~~ 
 - Options (activate via code; “Daily” links to Scene 4):
   - Guided Joint Mobility Exercise  
   - Daily Activity Simulations → Scene 4  
@@ -63,7 +63,7 @@
 ---
 
 ### **4. Daily Activity Training (Apartment asset)**
-- Setup Scene  
+- ~~Setup Scene~~  
 - Research jar (collider / rigidbody)  
 - Text field for feedback  
 - Code  
