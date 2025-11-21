@@ -18,15 +18,17 @@ public class LoginSceneManager : MonoBehaviour
     public TMP_Text messageText; // Optional label for warnings
 
     [Header("Scene Settings")]
-    public string nextScene = "AssessmentRoom";
+    public string nextScene = "lobbyScene";
 
     // --- Demo User (Sarah Johnson) ---
-    private string demoPatientID = "RA-PT-102945";
-    private string demoPassword = "DemoPass!23";
-    private string demoName = "Sarah Johnson";
+    public UserData User = new();
+    
 
     private void Start()
     {
+        User.demoPatientID = "RA-PT-102945";
+        User.demoPassword = "DemoPass!23";
+        User.demoName = "Sarah Johnson";
         // Restore saved login data
         if (PlayerPrefs.GetInt("rememberMe", 0) == 1)
         {
@@ -59,7 +61,7 @@ public class LoginSceneManager : MonoBehaviour
         }
 
         // --- Check Demo User ---
-        if (user == demoPatientID && pass == demoPassword)
+        if (user == User.demoPatientID && pass == User.demoPassword)
         {
             ShowMessage("Login Successful!");
 
@@ -77,8 +79,8 @@ public class LoginSceneManager : MonoBehaviour
                 PlayerPrefs.DeleteKey("savedPassword");
             }
 
-            PlayerPrefs.SetString("currentUserName", demoName);
-            PlayerPrefs.SetString("currentUserID", demoPatientID);
+            PlayerPrefs.SetString("currentUserName", User.demoName);
+            PlayerPrefs.SetString("currentUserID", User.demoPatientID);
 
             SceneManager.LoadScene(nextScene);
             return;
