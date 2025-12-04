@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "HandControls",
+            "id": "165caff4-1dc1-4c9d-854f-68acd46cae00",
+            "actions": [
+                {
+                    "name": "WristRotationRight",
+                    "type": "Value",
+                    "id": "87e2fccf-e935-42fc-9d24-ce216e569e7f",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WristRotationLeft",
+                    "type": "Value",
+                    "id": "e49bf4f9-1f99-4dc8-a94b-834a2faa3f76",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0046ed09-d03a-4615-94eb-cd5485b25796",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WristRotationRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e2d28de7-819d-4bcb-ad14-0bb946e245b1",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WristRotationLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

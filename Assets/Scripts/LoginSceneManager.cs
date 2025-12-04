@@ -1,3 +1,14 @@
+/*
+ * LoginSceneManager.cs
+ * --------------------
+ * Login manager for patients or guests.
+ * - Username and password fields are handled via TMP_InputFields.
+ * - Password input is masked (characters hidden when typed).
+ * - Supports "Remember Me" toggle using PlayerPrefs.
+ * - Validates credentials (Sarah Johnson).
+ * - Loads the next scene on successful login or guest access.
+ */
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -7,7 +18,7 @@ public class LoginSceneManager : MonoBehaviour
 {
     [Header("TMP Input Fields")]
     public TMP_InputField usernameField;     // Patient ID field
-    public TMP_InputField passwordField;
+    public TMP_InputField passwordField;     // Password field (masked)
 
     [Header("UI Controls")]
     public Toggle rememberMeToggle;
@@ -15,19 +26,27 @@ public class LoginSceneManager : MonoBehaviour
     public Button guestButton;
 
     [Header("Optional Feedback")]
-    public TMP_Text messageText; // Optional label for warnings
+    public TMP_Text messageText; // Label for warnings or status messages
 
     [Header("Scene Settings")]
-    public string nextScene = "AssessmentRoom";
+    public string nextScene = "LobbyScene";
 
     // --- Demo User (Sarah Johnson) ---
-    private string demoPatientID = "RA-PT-102945";
-    private string demoPassword = "DemoPass!23";
-    private string demoName = "Sarah Johnson";
+    public string demoPatientID = "RA-PT-102945";
+    public string demoPassword = "DemoPass!23";
+    public string demoName = "Sarah Johnson";
 
     private void Start()
     {
-        // Restore saved login data
+        // Pre-fill demo credentials for testing
+        usernameField.text = demoPatientID;
+        passwordField.text = demoPassword;
+
+        // Ensure password input is masked
+        if (passwordField != null)
+            passwordField.contentType = TMP_InputField.ContentType.Password;
+
+        // Restore saved login data if "Remember Me" was checked
         if (PlayerPrefs.GetInt("rememberMe", 0) == 1)
         {
             rememberMeToggle.isOn = true;
@@ -39,7 +58,7 @@ public class LoginSceneManager : MonoBehaviour
             rememberMeToggle.isOn = false;
         }
 
-        // Button listeners
+        // Attach button listeners
         loginButton.onClick.AddListener(OnLoginPressed);
         guestButton.onClick.AddListener(OnGuestPressed);
 
@@ -52,6 +71,7 @@ public class LoginSceneManager : MonoBehaviour
         string user = usernameField.text.Trim();
         string pass = passwordField.text.Trim();
 
+        // Basic validation
         if (user == "" || pass == "")
         {
             ShowMessage("Please enter Patient ID and Password.");
@@ -63,12 +83,12 @@ public class LoginSceneManager : MonoBehaviour
         {
             ShowMessage("Login Successful!");
 
-            // Save login info
+            // Save login info if "Remember Me" is enabled
             if (rememberMeToggle.isOn)
             {
                 PlayerPrefs.SetInt("rememberMe", 1);
                 PlayerPrefs.SetString("savedUsername", user);
-                PlayerPrefs.SetString("savedPassword", pass);
+                PlayerPrefs.SetString("savedPassword", pass); // plain text is fine for demo
             }
             else
             {
@@ -77,6 +97,7 @@ public class LoginSceneManager : MonoBehaviour
                 PlayerPrefs.DeleteKey("savedPassword");
             }
 
+            // Store current user info for session
             PlayerPrefs.SetString("currentUserName", demoName);
             PlayerPrefs.SetString("currentUserID", demoPatientID);
 

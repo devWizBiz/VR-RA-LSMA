@@ -69,6 +69,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"handco"
 	"xri righ"
 	"trackin"
 	"rotation"
